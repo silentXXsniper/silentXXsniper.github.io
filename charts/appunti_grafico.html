@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>Code Archaeology</title>
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
-<style>
+  <style>
   body {
     font-family: sans-serif;
     padding: 2rem;
@@ -20,10 +18,9 @@
 </style>
 </head>
 <body>
-  <h1>Evoluzione degli appunti</h1>
   <div id="chart"></div>
   <script>
-    vegaEmbed('#chart', '../charts/<nomerepo>-clean.json', {actions: false});
+    vegaEmbed('#chart', 'data/Appunti_Uni-clean.json');
   </script>
 </body>
 </html>
