@@ -2090,6 +2090,366 @@
         "commit_date": "2026-05-15T16:19:32",
         "line_count": 0.08078193664550781,
         "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 0.9510126113891602,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 41.07624530792236,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 31.551684379577637,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 15.317279815673828,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-16T14:08:07",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 0.9510126113891602,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 41.21286964416504,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 31.551684379577637,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 15.317279815673828,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-18T16:25:02",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 0.9513177871704102,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 41.21286964416504,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 31.551684379577637,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 15.317279815673828,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-20T21:26:27",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 0.9513273239135742,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 41.23692607879639,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 35.10271739959717,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 15.482778549194336,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-24T22:40:52",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 0.9513187408447266,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 41.23692607879639,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 35.10271739959717,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 15.482778549194336,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-25T16:24:53",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 0.9513187408447266,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 42.459909439086914,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 35.10271739959717,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 15.482778549194336,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-26T15:49:23",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 0.9513187408447266,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 42.459909439086914,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 41.306233406066895,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 15.482778549194336,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-28T12:48:28",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 0.9513187408447266,
+        "period": "(root)"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 42.459909439086914,
+        "period": "ALGORITMI"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 1.9572067260742188,
+        "period": "FISICA"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 41.306233406066895,
+        "period": "FONDAMENTI"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 18.736560821533203,
+        "period": "MACHINE_LEARNING"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 7.36428165435791,
+        "period": "PROGRAMMAZIONE"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 0.9378986358642578,
+        "period": "SISTEMI_OPERATIVI_E_LABORATORIO"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 5.069516181945801,
+        "period": "STATISTICA"
+      },
+      {
+        "commit_date": "2026-05-29T20:02:24",
+        "line_count": 0.08078193664550781,
+        "period": "TECONLOGIA_WEB_PER_IL_CLOUD"
       }
     ]
   },
