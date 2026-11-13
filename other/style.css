@@ -1,0 +1,215 @@
+/* --- TITOLI --- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+}
+
+h1 {
+    border-bottom: 5px solid #3498db;
+    padding-bottom: 10px;
+}
+
+h2 {
+    border-bottom: 3px solid #3498db;
+}
+
+
+h3, h4, h5 {
+    border-bottom: 2px solid #3498db;
+}
+
+/* --- TESTO E LISTE --- */
+p, body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+body{
+    margin-top: 0;
+}
+
+ul, ol {
+    color: #34495e;
+}
+
+/* --- BLOCCHI DI CODICE (quello che abbiamo creato prima) --- */
+pre {
+    background-color: #f4f6f7;
+    border-left: 5px solid #3498db; /* La riga blu a sinistra */
+    color: #2c3e50;
+    padding: 15px;
+    margin: 20px 0;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 0.9em;
+    border-radius: 0 5px 5px 0;
+    overflow-x: auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+code {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+}
+
+/* Per le parole evidenziate inline tipo `print()` */
+:not(pre) > code {
+    background-color: #ecf0f1;
+    color: #c0392b; /* Un rosso scuro per contrasto, opzionale */
+    padding: 2px 5px;
+    border-radius: 3px;
+}   
+
+/* --- STILE INDICE (Table of Contents) --- */
+
+/* Il contenitore esterno: simile ai blocchi di codice */
+.toc {
+    background-color: #f4f6f7;   /* Lo stesso grigio dei blocchi codice */
+    border-left: 5px solid #3498db; /* La riga blu a sinistra */
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Rimuove i pallini classici della lista per un look più pulito */
+.toc ul {
+    list-style-type: none; 
+    padding-left: 10px;
+    margin: 0;
+}
+
+/* Gestione dei livelli (indentazione per i sottotitoli) */
+.toc ul ul {
+    padding-left: 20px;       /* Sposta a destra i sottotitoli */
+    border-left: 1px solid #bdc3c7; /* Una linea sottile grigia per guidare l'occhio */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Stile dei Link */
+a {
+    text-decoration: none;    /* Toglie la sottolineatura standard */
+    color: #3498db;           /* Colore scuro standard */
+    font-family: 'Arial', sans-serif; /* O il font che preferisci */
+    font-size: 0.95em;
+    font-weight: 600;         /* Leggermente grassetto */
+    transition: color 0.2s;
+}
+
+/* Effetto quando passi sopra col mouse */
+a:hover {
+    color: #2c3e50;           /* Diventa blu al passaggio */
+    text-decoration: underline;
+}
+
+/* (Opzionale) Aggiunge un simbolino ">>" prima delle voci principali */
+.toc > ul > li > a::before {
+    content: "• ";
+    color: #3498db;
+    font-weight: bold;
+    margin-right: 5px;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-- STRUTTURA --*/
+
+.titolo{
+    text-align: center; 
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    margin-top: 0px !important;
+    padding-top: 0px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    padding-top: 40px;
+    background-color: lightblue;
+    z-index: 100;
+}
+
+#sidebar_l {
+  left: 0;
+}
+
+#sidebar_r {
+  right: 0;
+}
+
+.body-text {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.side_tx {
+    padding-left: 20px;
+    padding-left: 20px;
+}
+
+/* 1. The parent container should NOT have opacity/transform */
+.fade-in-element {
+  /* Leave this empty or add normal container styles */
+}
+
+/* 2. The children get the hidden state and transition */
+.fade-in-child {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* 3. The visible state for the children */
+.fade-in-child.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: lightblue; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3498db; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3e50; 
+}

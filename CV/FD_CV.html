@@ -1,0 +1,188 @@
+<head>
+    <title>FD_CV</title>
+      <link rel="icon" href="../per_appunti/loghi/logo_mini.png" type="image/png">
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+        displayMath: [['$$', '$$'], ['\\[', '\\]']]
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      }
+    };
+  </script>
+  <script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+  </script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("pre").forEach((pre) => {
+      // Make pre position:relative so the button can anchor to it
+      pre.style.position = "relative";
+      const btn = document.createElement("button");
+      btn.innerText = "⎘ Copia";
+      btn.style.cssText = `
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: #3498db;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 3px 9px;
+        font-size: 0.75em;
+        font-family: 'Arial', sans-serif;
+        cursor: pointer;
+        opacity: 0.75;
+        transition: opacity 0.2s;
+      `;
+      btn.addEventListener("mouseenter", () => btn.style.opacity = "1");
+      btn.addEventListener("mouseleave", () => btn.style.opacity = "0.75");
+      btn.addEventListener("click", () => {
+        const code = pre.querySelector("code") ?? pre;
+        navigator.clipboard.writeText(code.innerText).then(() => {
+          btn.innerText = "✓ Copied!";
+          setTimeout(() => btn.innerText = "⎘ Copia", 1500);
+        });
+      });
+      pre.appendChild(btn);
+    });
+  });
+</script>
+
+<link rel="stylesheet" href="../other/style.css">
+</head>
+
+<body>
+  <div class="titolo" id="myHeader">
+    <h1>Francesco Davini</h1>
+  </div>
+  <div class="sidebar" id="sidebar_l">
+    <div class="side_tx">
+      <h2>Progetti:</h2>
+    </div>
+  </div>
+  <div class="body-text">
+    <h2  class="fade-in-element">Carriera Scolastica</h2>
+    <ul  class="fade-in-element">
+      <li><b>Liceo Scientifico</b> - <a href="https://www.pololicealegorizia.edu.it/luqoghi?id=341" target="_blank">Duca degli Abruzzi</a></li>
+      <ul>
+        <li>2019 - 2024</li>
+      </ul>
+      <li><b>Università degli studi di Udine</b> - <a href="https://www.uniud.it/it/didattica/corsi/area-scientifica/scienze-matematiche-informatiche-multimediali-fisiche/laurea/internet-of-things-big-data-machine-learning/corso/internet-of-things-big-data-machine-learning" target="_blank">IBML</a> </li>
+      <ul>
+        <li>2024 - in corso</li>
+      </ul>
+    </ul>
+    <h2 class="fade-in-element">Esperienze</h2>
+    <ul class="fade-in-element">
+      <li>
+        <a href="https://www.mondodigitale.org/notizie/gorizia-citta-della-cultura" target="_blank">Coding girls</a>
+        <ul>
+          <li>Coding Girls è un'iniziativa della Fondazione Mondo Digitale avviata nel 2014. Questo progetto mira a promuovere la conoscenza dell'informatica tra gli studenti delle scuole superiori, con un focus sull'obiettivo della parità di genere nell'ambito scientifico-tecnologico. L&#39;Università di Udine è coinvolta come partner dal 2021: il progetto è patrocinato dal CUG (Comitato Unico di Garanzia per le pari opportunità, la valorizzazione del benessere di chi lavora e contro le discriminazioni) dell'Università degli Studi di Udine.</li>
+        </ul>
+      </li>
+        <li><p><a href="https://www.contaminationlab.it/" target="_blank">Contamination Lab</a></p></li>
+        <ul>
+            <li><p>Laboratorio di Ingegneria Agroforestale che unisce ricerca, innovazione e collaborazione tra Università, aziende ed enti del territorio. L'obiettivo è individuare soluzioni innovative a sfide lanciate dalle aziende partner, con quattro seminari formativi organizzati per arricchire le tue competenze. Il laboratorio è realizzato nell'ambito del progetto iNEST - Interconnected Nord-Est Innovation Ecosystem, finanziato dal PNRR e dall'Unione Europea &#45; NextGenerationEU.</p>
+              <p>Il progetto gettò le basi per la realizzazione del <a href="https://labvillage.it/" target="_blank">Lab Village</a></p>
+            </li>
+        </ul>
+        <li><a href="https://eqai.eu/eqai-2026/" target="_blank">EQAI European summer school on quantum AI</a></li>
+        <ul>
+          <li>Il Quantum ML è un campo interdisciplinare che richiede competenze in diversi ambiti, tra cui la fisica, la matematica, la teoria dell’informazione e l’informatica. Riunendo esperti in questi campi e appassionati di quantistica provenienti sia dal mondo accademico che da quello industriale, la scuola estiva mira a promuovere la collaborazione e il pensiero interdisciplinare.
+
+Esistono inoltre numerose sfide ancora aperte nel campo del ML quantistico. Sebbene sia possibile applicare il ML quantistico su piccola scala, estenderlo a set di dati più grandi rappresenta una sfida estremamente ardua a causa della memoria fisica limitata e del rumore presente negli attuali computer quantistici. Pertanto, è di fondamentale importanza diffondere le conoscenze su questo argomento e coinvolgere nuovi ricercatori in grado di contribuire al suo progresso.
+</li>
+        </ul>
+        <li><a href="https://educatingfuturecitizens.com/ia-quo-vadis-corso-di-formazione-avanzata/" target="_blank">IA, quo vadis?</a></li>
+        <ul>
+          <li>Un corso di formazione avanzata per discutere gli impatti dell&#39;intelligenza artificiale sulla nostra società e sulla ricerca, i cambiamenti in atto nella regolamentazione, oltre alle implicazioni etiche e di privacy. Concluso con il Retreat Meet the EFC Network.</li>
+        </ul>
+    </ul>
+    <h2 class="fade-in-element">Certificazioni</h2>
+    <ul class="fade-in-element">
+      <li><b>Certificato Inglese B2</b></li>
+      <ul><li>Cambridge English - <i>176</i> (2023)</li></ul>
+      <li>EQAI European summer school on quantum AI</li>
+      <ul><li><a href="../docs/EQAI2026.html" target="_blank">esame finale</a> - (2026)</li></ul>
+    </ul>
+    <h2 class="fade-in-element">Competenze Informatiche</h2>
+    <ul class="fade-in-element">
+      <li>Python</li>
+      <li>Jupyter</li>
+      <li>Java</li>
+      <li>R</li>
+      <li>html, CSS, javascript</li>
+      <li>Markdown</li>
+      <li>scheme</li>
+      <li>Microsoft Office Suite</li>
+    </ul>
+  </div>
+  <div class="sidebar" id="sidebar_r">
+      <img src="../docs/prof_pic.png" alt="prof_pic" style="width: 80%; position:sticky;">
+      <div class="side_tx">
+        <br>
+        <p>Contatti:</p>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/francesco-davini-29a571365/" target="_blank">Linkedin</a></li>
+          <li><a href="https://github.com/silentXXsniper" target="_blank">Github</a></li>
+          <li style="color: transparent"><a href="https://iocaine.madhouse-project.org/" target="_blank" style="color: transparent;">numero telefonico:</a></li>
+          <li style="color: transparent"><a href="https://iocaine.madhouse-project.org/" target="_blank" style="color: transparent;">email:</a></li>
+        </ul>
+        
+      </div>
+  </div>
+
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("myHeader");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
+    }
+
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // 1. Element is ENTERING the screen -> Fade IN
+      entry.target.classList.add('is-visible');
+    } else {
+      // 2. Element is LEAVING the screen -> Fade OUT
+      entry.target.classList.remove('is-visible');
+    }
+  });
+}, {
+  // threshold: 0 means it triggers the exact moment 1 pixel enters/leaves.
+  threshold: 0 
+});
+
+// Find all parent containers
+document.querySelectorAll('.fade-in-element').forEach((parent) => {
+  // Find ALL children and sub-children
+  const descendants = parent.querySelectorAll('*');
+
+  descendants.forEach((child, index) => {
+    child.classList.add('fade-in-child');
+    
+    // Optional stagger delay
+    child.style.transitionDelay = `${index * 0.1}s`; 
+    
+    // Observe each child
+    observer.observe(child);
+  });
+});
+</script>
+</body>
